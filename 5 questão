@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    char letra_maiuscula, letra_minuscula;
+
+    
+    printf("Digite uma letra maiúscula: ");
+    scanf(" %c", &letra_maiuscula);  // o espaço antes de %c ignora espaços em branco anteriores
+
+    
+    if (letra_maiuscula >= 'A' && letra_maiuscula <= 'Z') {
+        
+        letra_minuscula = letra_maiuscula + 32;
+        printf("Letra minúscula correspondente: %c\n", letra_minuscula);
+    } else {
+        printf("Erro: o caractere digitado não é uma letra maiúscula.\n");
+    }
+
+    return 0;
+}
+
+
+Digite uma letra maiúscula: D
+Letra minúscula correspondente: d
