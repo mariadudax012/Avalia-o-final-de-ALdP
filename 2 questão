@@ -25,6 +25,7 @@ int main() {
 
 
 
+
 Se o número digitado for, por exemplo, 5:
 
 Triplo: 3 * 5 = 15 → Sucessor: 16
